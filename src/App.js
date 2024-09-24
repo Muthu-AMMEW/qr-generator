@@ -47,19 +47,19 @@ function App() {
             {loading && <p>loading...</p>}
           </div>
 
-          <div className='w-75 m-2'>
+          <div className='w-100 m-2'>
             <label className='form-label text-success' htmlFor="qrData">Data for QR Code</label> <br />
             <input className='form-control' type="text" name="qrData" id="qrData" value={qrData} onChange={(e) => setQrData(e.target.value)} />
           </div>
 
-          <div className='w-75 m-2'>
+          <div className='w-100 m-2'>
             <label className='form-label text-success' htmlFor="qrSize">Image size (e.g. 150)</label> <br />
             <input className='form-control' type="text" name="qrSize" id="qrSize" value={qrSize} onChange={(e) => setQrSize(e.target.value)} />
           </div>
 
-          <div className='w-75 m-1 mt-2 d-flex justify-content-between'>
+          <div className='w-100 mt-2 d-flex justify-content-between'>
             <button className='btn btn-warning' type="button" onClick={qrGenerate} disabled={loading}>Generate QR Code</button>
-            <button className='btn btn-success' type="button" onClick={qrDownload}>Download QR Code</button>
+            <button className='btn btn-success ms-2' type="button" onClick={qrDownload}>Download QR Code</button>
           </div>
 
           <div className='mt-3'><p className=' fst-italic'>Designed By <a href="https://www.linkedin.com/in/muthu-ammew/" rel="noreferrer" target='_blank'>Muthu</a></p></div>
