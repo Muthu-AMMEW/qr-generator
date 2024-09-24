@@ -20,7 +20,7 @@ function App() {
     }
 
   }
-  
+
   function qrDownload() {
     fetch(img).then((response) => response.blob())
       .then((blob) => {
