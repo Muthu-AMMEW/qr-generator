@@ -57,12 +57,12 @@ function App() {
             <input className='form-control' type="text" name="qrSize" id="qrSize" value={qrSize} onChange={(e) => setQrSize(e.target.value)} />
           </div>
 
-          <div className='w-75 mt-2 d-flex justify-content-between'>
+          <div className='w-75 mt-2 d-flex justify-content-between m-1'>
             <button className='btn btn-warning' type="button" onClick={qrGenerate} disabled={loading}>Generate QR Code</button>
             <button className='btn btn-success' type="button" onClick={qrDownload}>Download QR Code</button>
           </div>
 
-          <div className='mt-3'><p className=' fst-italic'>Designed By <a href="https://www.linkedin.com/in/muthu-ammew/">Muthu</a></p></div>
+          <div className='mt-3'><p className=' fst-italic'>Designed By <a href="https://www.linkedin.com/in/muthu-ammew/" target='_blank'>Muthu</a></p></div>
 
         </div>
       </div>
