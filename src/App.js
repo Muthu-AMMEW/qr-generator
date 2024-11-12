@@ -62,7 +62,7 @@ function App() {
             <button className='btn btn-success ms-2' type="button" onClick={qrDownload}>Download QR Code</button>
           </div>
 
-          <div className='mt-3'><p className='fst-italic'>Designed By <a href="https://www.linkedin.com/in/muthu-ammew/" rel="noreferrer" target='_blank'>Muthu</a></p></div>
+          <div className='mt-3'><a href="https://www.linkedin.com/in/muthu-ammew" className="text-black text-decoration-none">Designed by <span className="text-success text-decoration-underline fw-bolder">Muthu</span></a></div>
 
         </div>
       </div>
